@@ -11,3 +11,154 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main-container-header {
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 24px;
+}
+
+.action-button {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2em;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 0.75em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+form select {
+  -webkit-appearance: none; /* Remove default styling for select */
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px 16px;
+  padding-right: 2em; /* Add space for the arrow */
+}
+
+form p {
+  color: red;
+  font-size: 0.875em;
+  margin-top: -0.5em;
+  margin-bottom: 0.5em;
+}
+
+form .lr-btn {
+  padding: 0.75em;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form .lr-btn:hover {
+  background-color: #0056b3;
+}
+
+.user-details {
+  max-width: 600px;
+  margin: 2em auto;
+  padding: 2em;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.user-details h2 {
+  text-align: center;
+  margin-bottom: 1em;
+  color: #333;
+}
+
+.user-details div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-details div:last-child {
+  border-bottom: none;
+}
+
+.user-details span.label {
+  font-weight: bold;
+  color: #555;
+}
+
+.user-details span.value {
+  color: #333;
+}
+
+/* No page found CSS */
+
+.not-found {
+  text-align: center;
+  padding: 2em;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.not-found h1 {
+  font-size: 6em;
+  margin: 0;
+  color: #ff6b6b;
+}
+
+.not-found h2 {
+  font-size: 2em;
+  margin: 0.5em 0;
+  color: #333;
+}
+
+.not-found p {
+  font-size: 1em;
+  color: #666;
+  margin: 1em 0;
+}
+
+.not-found .home-link {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.not-found .home-link:hover {
+  background-color: #0056b3;
+}

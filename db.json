@@ -1,0 +1,25 @@
+{
+  "customers": [
+    {
+      "id": "2",
+      "fullName": "Mohammed Moria11",
+      "address": "abcsadasd222",
+      "country": "USA",
+      "pincode": 33544333
+    },
+    {
+      "id": "1t8ruh9p54fgfx0dualy",
+      "pincode": 1222,
+      "country": "Germany",
+      "address": "dsfdsfds",
+      "fullName": "dsfdsf"
+    },
+    {
+      "id": "m7yqem3orn6u6d3ekril",
+      "pincode": 123213,
+      "country": "Germany",
+      "address": "sadasda",
+      "fullName": "mohd"
+    }
+  ]
+}
