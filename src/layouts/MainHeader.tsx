@@ -15,7 +15,6 @@ const MainHeader = () => {
                         aria-label="account of current user"
                         aria-controls="menu-appbar"
                         aria-haspopup="true"
-                        // onClick={handleMenu}
                         color="inherit"
                     >
                         <AccountCircle />

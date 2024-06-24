@@ -16,7 +16,6 @@ const AddEditCustomer = () => {
     const navigate = useNavigate();
 
     const countryList = ['India', 'USA', 'Germany', 'Brazil', 'England'];
-    // console.log(isEdit, type, 'ISEDIT');
 
     const CutomerSchema = Yup.object().shape({
         fullName: Yup.string().required('Please Enter FullName'),
@@ -25,13 +24,11 @@ const AddEditCustomer = () => {
         pincode: Yup.number().required('Please Enter Pincode'),
     });
 
-    // Add Farm form element
     const methods = useForm<any>({
         resolver: yupResolver(CutomerSchema),
         mode: 'onChange'
     });
 
-    // Form element
     const {
         register,
         reset,

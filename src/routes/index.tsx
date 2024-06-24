@@ -28,8 +28,5 @@ export default function Router() {
     ]);
 }
 
-
-// // MAIN
 const CustomerList = Loadable(lazy(() => import('../pages/cutomerList/CustomerList')));
 const AddEditCustomer = Loadable(lazy(() => import('../pages/addEditCustomer/AddEditCustomer')));
-// const Dashboard = Loadable(lazy(() => import('../pages/dashboard/breederDashboard/BreederDashboardController')));
